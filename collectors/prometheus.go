@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightninglabs/lndclient"
 	"github.com/lightningnetwork/lnd/routing/route"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/rsafier/lndclient"
 )
 
 var (

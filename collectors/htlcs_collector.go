@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lightninglabs/lndclient"
 	"github.com/lightningnetwork/lnd/channeldb"
 	"github.com/lightningnetwork/lnd/htlcswitch"
 	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
 	"github.com/lightningnetwork/lnd/lnwire"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/rsafier/lndclient"
 )
 
 const (

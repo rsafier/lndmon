@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/lightninglabs/lndclient"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/rsafier/lndclient"
 )
 
 // ChainCollector is a collector that keeps track of on-chain information.

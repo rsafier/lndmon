@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/lightninglabs/lndclient"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/rsafier/lndclient"
 )
 
 // InfoCollector is a collector that keeps track of node information.

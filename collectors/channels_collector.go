@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightninglabs/lndclient"
 	"github.com/lightningnetwork/lnd/routing/route"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/rsafier/lndclient"
 )
 
 // ChannelsCollector is a collector that keeps track of channel infromation.

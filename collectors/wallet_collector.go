@@ -6,8 +6,8 @@ import (
 	"math"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightninglabs/lndclient"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/rsafier/lndclient"
 )
 
 // WalletCollector is a collector that will export metrics related to lnd's

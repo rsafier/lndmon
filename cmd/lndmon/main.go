@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/lightninglabs/lndmon"
+	"github.com/rsafier/lndmon"
 
-	_ "github.com/lightninglabs/lndmon/collectors"
+	_ "github.com/rsafier/lndmon/collectors"
 )
 
 func main() {

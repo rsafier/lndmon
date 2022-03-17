@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 
 	flags "github.com/jessevdk/go-flags"
-	"github.com/lightninglabs/lndmon/collectors"
 	"github.com/lightningnetwork/lnd/lnrpc/verrpc"
 	"github.com/lightningnetwork/lnd/routing/route"
 	"github.com/lightningnetwork/lnd/signal"
 	"github.com/rsafier/lndclient"
+	"github.com/rsafier/lndmon/collectors"
 )
 
 // Main is the true entrypoint to lndmon.

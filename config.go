@@ -2,7 +2,7 @@ package lndmon
 
 import (
 	"github.com/btcsuite/btcutil"
-	"github.com/lightninglabs/lndmon/collectors"
+	"github.com/rsafier/lndmon/collectors"
 )
 
 var (
